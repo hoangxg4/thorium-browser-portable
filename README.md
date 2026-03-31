@@ -10,7 +10,7 @@ Thorium Browser Portable - Chromium-based browser optimized with AVX2 by [Alex31
 - Auto-update script to fetch latest Thorium releases
 
 ### Files
-- `thorium++.ini` — Chrome++ configuration for portable mode
+- `chrome++.ini` — Chrome++ configuration for portable mode
 - `default-apps-multi-profile.bat` — Set Thorium as default browser
 - `update.bat` — Auto-update to the latest Thorium release
 

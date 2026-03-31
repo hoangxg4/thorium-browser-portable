@@ -70,7 +70,7 @@ jobs:
         Copy-Item $dll[0].FullName Thorium_Portable\ -Force
         
         # Copy config files
-        Copy-Item thorium++.ini,default-apps-multi-profile.bat,update.bat Thorium_Portable\ -Force
+        Copy-Item chrome++.ini,default-apps-multi-profile.bat,update.bat Thorium_Portable\ -Force
         
         # Write version file for update.bat
         Set-Content -Path "Thorium_Portable\version.txt" -Value "${{ env.THORIUM_VER }}"
